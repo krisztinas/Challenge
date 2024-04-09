@@ -5,7 +5,6 @@ function loadExchanges() {
         const exchangeSelect = document.getElementById('exchange');
         exchangeSelect.innerHTML = '<option value="">Please choose an exchange</option>';
 
-        // Print the list of exchanges to the console
         console.log("Exchanges:", exchanges);
 
         exchanges.forEach(exchange => {
